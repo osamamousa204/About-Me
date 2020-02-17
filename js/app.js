@@ -1,6 +1,6 @@
 'use strict';
 var Name = prompt("what is your name??")
-alert("welcome" + Name)
+alert("welcome  " + Name)
 alert("i am not going to ask you to guess  my name because you already know it so i will ask you to guess something you don't know");
 var myAge = prompt("guess what is my  age");
 console.log(myAge);
@@ -102,4 +102,4 @@ switch(life.toLowerCase()){
  alert("you didn't type a correct answer!");
 }
 
-alert("thank you to vist my website" + Name)
+alert("thank you to vist my website " + Name)
