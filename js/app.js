@@ -11,7 +11,7 @@ console.log(spacialty);
 var result = document.getElementById("gis");
 console.log(result);
 
-result.innerHTML="your gussed" + myAge + mycolor + spacialty  ;
+result.innerHTML =  myAge +   "    "  + '<br>'+ mycolor + "    "  + '<br>' + spacialty  ;
 
 var sky = prompt("Is the sky color blue (think before you answer) answer(yes/no) or (y/n)");
 console.log(sky);

@@ -1,0 +1,50 @@
+body{
+    background-color: blueviolet;
+}
+main{
+    width: 800px;
+    background-color: rgb(24, 12, 36);
+    margin: 25px auto;
+    padding: 20px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    background-color: chartreuse;
+    text-shadow: 7px 8px 7px rgb(206, 14, 14);
+    box-shadow: rgb(39, 10, 107);
+    margin: 15px;
+    padding: 10px;
+}
+p{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    font-family: tahoma;
+    background-color: rgb(147, 107, 192);
+    text-shadow: 7px 8px 2px rgb(184, 173, 146);
+    box-shadow: rgb(185, 27, 27);
+    margin: 15px;
+    padding: 10px;    
+}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(50, 95, 5);
+    text-shadow: 7px 8px 2px rgb(218, 8, 8);
+    box-shadow: rgb(39, 10, 107);
+    margin: 15px;
+    padding: 10px;
+}
+#gis{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgb(54, 23, 105);
+    text-shadow: 5px 5px 2px rgb(32, 9, 46);
+    box-shadow: rgb(39, 10, 107);
+    margin: 15px;
+    padding: 10px;
+}
