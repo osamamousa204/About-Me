@@ -129,7 +129,7 @@ switch(life.toLowerCase()){
 console.log(mark);
 var myNumber = 8 ;
 var guessNumber = prompt("guess an even number from 0 to 10 (you have only 4 attempts)");
-for(var i = 1 ; i < 6 ; i++){
+for(var i = 0 ; i < 4 ; i++){
 
    if(myNumber == guessNumber){
      mark = mark + 1;
@@ -139,16 +139,15 @@ for(var i = 1 ; i < 6 ; i++){
 
       else if(guessNumber < myNumber){
          alert('your answer too low ')
-         guessNumber = prompt("guess an even number from 0 to 10 (you have only " + (4 - i) + " attempts)");
-
+         guessNumber = prompt("guess an even number from 0 to 10 (try ahain)")
       }
       else if (guessNumber > myNumber){
          alert('your answer too high ')
-         guessNumber = prompt("guess an even number from 0 to 10 (you have only " + (4 - i) + " attempts)");
+         guessNumber = prompt("guess an even number from 0 to 10 (try again");
 
       }else{
          alert('your answer is wrong ');
-         guessNumber = prompt("guess an even number from 0 to 10 (you have only " + (4 - i) + " attempts)");
+         guessNumber = prompt("guess an even number from 0 to 10 (try again");
       }
       
 
@@ -159,7 +158,7 @@ for(var i = 1 ; i < 6 ; i++){
    var guessFav = ['razan', 'shihab' , 'baraa' ,'samer', 'bashar' , 'riham' , 'all' ];
    
    var userfav = prompt("guess my favourit instructor (you have only 6 attepts) ");
-   for(var i = 1 ; i < 8 ; i++){
+   for(var i = 0 ; i < 6 ; i++){
       for(var x = 0; x < guessFav.length;x++){
          if(userfav == guessFav[x]){
             mark = mark + 1
@@ -171,7 +170,7 @@ for(var i = 1 ; i < 6 ; i++){
       if(test == "y"){
          break;
       }
-      userfav = prompt("guess my favourit instructor you only have " + (6 -i) + " attempts" );  
+      userfav = prompt("guess my favourit instructor try again!" );  
    
 
 
