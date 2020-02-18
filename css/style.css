@@ -24,7 +24,7 @@ h1{
     margin: 15px;
     padding: 10px;
 }
-p{
+.mydiv{
     font-size: 25px;
     text-align: center;
     font-weight: 600;
@@ -63,4 +63,30 @@ img{
 }
 img:hover{
     transform: scale(.8);
+}
+ul{
+list-style: disc;
+border: 2px solid rgb(61, 47, 47);
+padding: 4px;
+margin: 4px;
+list-style: inside;
+}
+ul li{
+    padding: 4px;
+margin: 4px;
+color: darkred;
+}
+ ol{
+    padding: 4px;
+    margin: 4px;
+    font-size: 20px;
+    color: rgb(208, 230, 11);
+    list-style-type: upper-latin ;
+
+}
+ol li{
+    padding: 4px;
+margin: 4px;
+color: darkred;
+font-size: 16px;
 }
