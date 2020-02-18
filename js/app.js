@@ -13,26 +13,25 @@ console.log(result);
 
 result.innerHTML =  myAge +   "    "  + '<br>'+ mycolor + "    "  + '<br>' + spacialty  ;
 
-var sky = prompt("Is the sky color blue (think before you answer) answer(yes/no) or (y/n)");
+var sky = prompt("do i love science answer(yes/no) or (y/n)");
 console.log(sky);
 
 switch (sky.toLowerCase()){
     case 'yes' :
-    alert('you are wrong ');
+     case 'y' :
+    alert('you are right i love it so much');
     break;
     case 'no' :
-     alert("you are right!!");
-     break;
-     case 'y' :
-    alert('you are wrong ');
-    break;
     case 'n' :
-     alert("you are right!!");
+     alert("you are wrong for sure!!");
      break;
+     
+    
+    
     default :
  alert("you didn't type a correct answer!");
 }
-var phi = prompt("Is phisics easy? answer(yes/no) or (y/n)");
+var phi = prompt("Is phisics what i love the most in science? answer(yes/no) or (y/n)");
 switch(phi.toLowerCase()){
  case "yes" :
     alert('you are right ');
@@ -49,16 +48,16 @@ switch(phi.toLowerCase()){
  default :
  alert("you didn't type a correct answer!");
 }
-var zero = prompt("Is zero a number in math? answer(yes/no) or (y/n)");
+var zero = prompt("do i play pes now ? answer(yes/no) or (y/n)");
 switch(zero.toLowerCase()){
  case "yes" :
-    alert('you are wrong ');
+    alert('you are wrong i was playing it sadly i can not now ');
     break;
  case "no" :
      alert("you are right!!");
      break;
  case "y" :
-    alert('you are wrong ');
+    alert('you are wrong i was playing it sadly i can not now');
     break;
  case "n" :
      alert("you are right!!");
@@ -84,19 +83,19 @@ switch(hungry.toLowerCase()){
  alert("you didn't type a correct answer!");
 }
 
-var life = prompt("is life good? answer(yes/no) or (y/n)");
+var life = prompt("do i love mansaf? answer(yes/no) or (y/n)");
 switch(life.toLowerCase()){
  case "yes" :
-    alert("you are right!!");
+    alert("you are right!! who hates mansaf");
     break;
  case "no" :
-     alert("you are wrong ! why you hate life!");
+     alert(" sure you are wrong !  ");
      break;
      case "y" :
-        alert("you are right!!");
+        alert("you are right!! who hates mansaf");
         break;
      case "n" :
-         alert("you are wrong ! why you hate life!");
+         alert("sure you are wrong ! ");
          break;
  default :
  alert("you didn't type a correct answer!");
