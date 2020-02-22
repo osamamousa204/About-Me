@@ -280,7 +280,8 @@ main aside{
 main aside h2{
 font-size: 35px;
 text-align: center;
-color: rgb(225, 248, 16);
+font-weight: 800;
+color: rgb(23, 24, 20);
 margin: 8px;
 margin-bottom: 50px;
 }
@@ -290,7 +291,7 @@ main aside ul{
     font-weight: 700;
     margin: 15px;
     margin-bottom: 40px;
-    color: rgb(156, 241, 76);
+    color: rgb(11, 12, 10);
 
 }
 main aside ul li{
