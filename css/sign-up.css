@@ -1,0 +1,72 @@
+body{
+    background-color: blueviolet;
+}
+form{
+    width: 800px;
+    margin: 10px auto;
+    background-color: rgb(69, 5, 129);
+    color: cornsilk;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 3%;
+
+}
+form .headform{
+    background-color: rgb(38, 7, 97);
+    height: 110px;
+    border-radius: 12px;
+}
+form .headform h1{
+    position: relative;
+    top: 0px;
+    left: 25px;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+}
+form .headform h3{
+    line-height: 90%;
+    float: right;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    border-radius: 8%;
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+    right: 5px;
+    color: rgb(188, 240, 0);
+    background-color: rgb(125, 158, 6);
+
+}
+form .personal{
+    margin-top: 20px;
+}
+input{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    
+}
+fieldset{
+    clear: both;
+    margin-bottom: 15px;
+    background-color: rgb(60, 14, 167);
+}
+fieldset .p1,.p2,.p3{
+    border: 2px solid rgb(24, 5, 77);
+    padding: 5px;
+    color: lavenderblush;
+    background-color: rgb(63, 14, 95);
+}
+
+form fieldset .account {
+background-color: rgb(224, 222, 238);}
+form .b1{
+    display: block;
+    margin: 10px auto;
+    background-color: rgb(5, 33, 61);
+    color: ghostwhite;
+}

@@ -1,4 +1,450 @@
 body{
+    background-color: rgb(215, 215, 238);
+
+}
+body .container{
+    width: 1300px;
+    padding: 7px;
+    margin: 0 auto;
+    background-color: rgb(2, 2, 3);
+    
+}
+
+header{
+    background-color: #381460;
+    
+    padding: 5px;
+    border-radius: 30px 30px 0px 0px;
+}
+header .headtitle{
+    width: 100%;
+    overflow: hidden;
+    height: 150px;
+
+}
+header .headtitle .thetitle{
+    float: right;
+    width: 80%;
+
+}
+header .headtitle .thetitle h1{
+    text-align: center;
+    font-size: 70px;
+    line-height: 20px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    position: relative;
+    top: 65px;
+    margin-left: 80px;
+    /* text-shadow: 5px 5px 3px rgb(225, 225, 235); */
+    animation: h1color 1.5s ease-in-out infinite;
+    transition: all 3s ease-in-out;
+    color: white;
+}
+/* @keyframes h1color {
+    0%,100% {
+        color: rgb(8, 8, 8);
+
+    }
+    50% {
+        color: rgb(250, 255, 253)  
+    }
+    
+} */
+header .headtitle .logo{
+    float: left;
+    width: 20%;
+    height: 200px;
+    position: relative;
+    top: 15px;
+    left: 60px;
+
+}
+header .headtitle .logo img{
+    width: 135px;
+    height: 135px;
+    animation: logoimg 1.5s ease-in-out infinite;
+    transition: all 5s ease-in-out ;
+}
+@keyframes logoimg {
+    0%,100% {
+        transform: rotateY(0deg);
+
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+}
+
+
+header nav{
+    overflow: hidden;
+    height: 70px;
+}
+header nav ul{
+    list-style: none;
+    float: left;
+    margin:  10px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    font-size: 25px;
+
+    
+    
+}
+header nav ul li{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    
+    text-decoration: none;
+    
+
+}
+header nav ul li a:hover{
+   color: violet;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(226, 232, 236);
+}
+header nav form{
+    float: right;
+    margin-left: 200px;
+    position: relative;
+    bottom: 55px ;
+    color: white;
+
+    
+}
+header nav form span{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+header nav form span a{
+    text-decoration: none;
+    color: yellow;
+}
+header nav form fieldset{
+    font-size: 10px;
+
+}
+/*main*/
+
+main{
+    overflow: hidden;
+}
+main .maincontainer{
+    float: left;
+    width: 69.5%;
+    background-color:#fe346e;
+    height: 100%;
+    overflow: hidden;
+}
+main .maincontainer .article1{
+    width: 95%;
+    padding: 25px;
+    overflow: hidden;
+    border: 3px solid rgb(55, 7, 65);
+    border-top:none ;
+}
+
+main .maincontainer .article1 img{
+    float: left;
+    width: 330px;
+    height: 350px;
+    margin: 20px;
+    position: relative;
+    right: 15px;
+    bottom: 40px;
+    z-index: 2;
+    transition: all .7s ease-in-out;
+    border-radius: 30px;
+    animation: artpic 3s ease-in-out infinite;
+
+}
+main .maincontainer .article1 .bio2{
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    position: relative;
+    right: 15px;
+    bottom: 40px;
+    z-index: 2;
+    transition: all .7s ease-in-out;
+    border-radius: 30px;
+    animation: artpic 3s ease-in-out infinite;
+}
+main .maincontainer .article1 .edu2{
+    float: left;
+    width: 350px;
+    height: 290px;
+    margin: 20px;
+    position: relative;
+    right: 15px;
+    bottom: 40px;
+    z-index: 2;
+    transition: all .7s ease-in-out;
+    border-radius: 30px;
+    animation: artpic 3s ease-in-out infinite;
+}
+@keyframes artpic {
+    0%,100% {
+        transform: scale(1);
+
+    }
+    50% {
+        transform: scale(.95);
+    }
+}
+main .maincontainer .article1 img:hover{
+    transform: scale(.8);
+}
+main .maincontainer .article1 h3{
+    font-size: 30px;
+    margin: 15px;
+    letter-spacing: 0px;
+    font-weight: 900;
+}
+main .maincontainer .article1 p{
+    position: relative;
+    font-size: 20px;
+    line-height: 30px;
+    left: 8px;
+    z-index: 1;
+}
+main .maincontainer .article1{
+    position: relative;
+    font-size: 20px;
+    line-height: 25px;
+    left: 8px;
+    z-index: 1;
+}
+main .maincontainer .article1 ul{
+list-style:disc;
+}
+main .maincontainer .article1 ol li{
+    list-style:decimal;
+    margin: 0px;
+    padding: 1px;
+    }
+main .maincontainer .ar2{
+    margin: 0 auto;
+
+}
+main .maincontainer .article2{
+    width: 31%;
+    border: 2px solid #000;
+    float: left;
+    margin: 5px auto;
+    height: 200px;
+    padding: 5px;
+    background-color: #ffbd69;
+    color: black;
+
+
+
+}
+main .maincontainer .article2 h5{
+    font-size: 25px;
+    text-align: center;
+    margin: 8px;
+    color: rgb(8, 8, 8);
+}
+main .maincontainer .article2 p{
+    text-align: center;
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+}
+main .maincontainer .article2 ul{
+    
+    list-style-position: inside;
+    list-style-type: square;
+    color: rgb(12, 11, 12);
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 8px;
+}
+
+main aside{
+    float: right;
+    width: 28%;
+    height: 1800px;
+    background-color: #b21f66;
+    padding: 15px;
+}
+
+main aside h2{
+font-size: 35px;
+text-align: center;
+color: rgb(225, 248, 16);
+margin: 8px;
+margin-bottom: 50px;
+}
+main aside ul{
+    list-style: none;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 15px;
+    margin-bottom: 40px;
+    color: rgb(156, 241, 76);
+
+}
+main aside ul li{
+    font-size: 25px;
+    padding: 5px;
+    margin: 25px;
+    color: rgb(224, 185, 111);
+    text-decoration: none;
+
+}
+main aside ul li:hover{
+    background-color: violet;
+
+}
+main aside ul li a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+/*main*/
+/*footer*/
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  footer{
+  }
+  footer .aboutus{
+      background-color: #fcc14c;
+      padding: 10px;
+      border: 3px solid #000;
+  }
+  footer .aboutus span{
+      font-size: 25px;
+      font-weight: 600;
+      text-align: center;
+  }
+  footer .aboutus .about{
+      text-decoration: none;
+      color: #000;
+      font-size: 15px;
+      margin: 2px;
+      position: relative;
+      left: 80px;
+      font-weight: 650;
+  }
+  footer .aboutus .about:hover{
+    background-color: violet;
+  }
+  footer .aboutus .feed{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    margin: 2px;
+    position: relative;
+      left: 140px;
+      font-weight: 650;
+
+}
+footer .aboutus .feed:hover{
+    background-color: violet;
+
+}
+footer .copyrights {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(6, 6, 31);
+    color: wheat;
+    border-radius:0px 0px 20px 20px;
+
+
+}
+#guess{
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    margin: 10px;
+    font-weight: 800;
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: yellow;
+}
+
+
+#guess:hover{
+    background-color: tomato;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
     background-color: blueviolet;
 }
 
@@ -89,4 +535,4 @@ ol li{
 margin: 4px;
 color: darkred;
 font-size: 16px;
-}
+} */
